@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="singlepagestyle.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logodigit">
+                <a  href="https://digit7.io/">
+                    <img class="digit7logo" src="https://digit7.io/wp-content/uploads/2022/02/digit7_logo.svg" alt="digit7logo"/>
+                </a>
+                <span class="menuicon"></span>
+            </div>
+            <div class="productheader">
+                <ul class="iconmenu">
+                    <li class="lidiv">
+                        <a class="products" href="#">Products</a>
+                    </li>
+                    <li class="lidiv">
+                        <a class="companyintel" href="https://digit7.io/company-intel/">Company Intel</a>
+                    </li>
+                    <li class="lidiv">
+                        <a class="careers" href="https://digit7.io/careers/">Careers</a>
+                    </li>
+                </ul>               
+            </div>
+        </div>
+        </header>
+        <div class="hometext" id="home">
+            <div class="pagetext">
+                <h2>I'M TAMIL SELVAN.<br>
+                    <span class="spantext">SOFTWARE DEVELOPER<br>
+                        I have zeal to learn new things and Hardworking boy with positive attitute towarts my life and my carrer.
+                    </span>
+                </h2>
+            </div>           
+        </div>
+        <div class="abouttext" id="about">
+            <div class="pagetext">
+                <h3>Some teams have load and performance testing baked into their continuous integration process and run load tests as soon as code is checked in. This is particularly true for back-end code. But developers should also be looking at single-user performance on the front end and making sure the software is responsive when only they are using the system.</h3>
+            </div>
+        </div>
+        <div class="contacttext" id="contact">
+            <div class="pagetext">
+                <a class="ahover" href="mailto:ntamilselvan9539@gmail.com">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail me:ntamilselvan9539@gmail.com</a><br>
+                <a class="Phone" href="phl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Call Me: 6369006862</a><br>
+            </div>
+        </div>
+        <div class="galarytext" id="galary">
+            <div class="pagetext">
+                <p>Developers also work with mock objects and virtualized services to make sure their units can be tested independently. If your unit tests fail, fix them before letting someone else use your code. If for any reason you can't fix them right now, let the other person know what has failed, so it won't come as a surprise when they come across the problem.</p>
+            </div>
+        </div>
+    
+
+    <div class="menu">
+        <a class="homemenu" href="#home">Home</a>
+        <a class="aboutmenu" href="#about">About</a>
+        <a class="contactmenu" href="#contact">Contact</a>
+        <a class="galarymenu" href="#galary">Galary</a>
+    </div>
+
+
+
+
+    <button onclick="topFunction()" id="myBtn"><ion-icon name="chevron-up-outline"></ion-icon></button>
+    <script>
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+        
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,207 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  width: 10px;
+  height: 10px;
+  font-size: 18px;
+  border: none;
+  background-color: #ff0000a8;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 20px;
+}
+.logodigit {
+  float: left;
+  width: 35%;
+}
+.header {
+  width: 100%;
+}
+header {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+  align-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 2;
+  background-color: #120f0f;
+}
+#myBtn:hover {
+  background-color: rgba(27, 216, 59, 0.781);
+}
+/* Singlepage */
+.hometext{
+    background: url(./Images/Tamil.jpg) center center no-repeat;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(236, 245, 236);
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .abouttext{
+    height: 100vh;
+    display: flex;
+    background-color: rgb(215, 240, 214);
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .contacttext{
+    height: 100vh;
+    display: flex;
+    background-color: rgb(255, 0, 0);
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .galarytext{
+    height: 100vh;
+    display: flex;
+    background-color: rgb(76, 0, 255);
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .menu a:hover{
+    background-color: red;
+    padding: 15px;
+    font-size: 20px;
+  }
+  #active{
+    background-color: #252525;
+    font-size: 25px;
+  }
+  .pagetext {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    margin-right: 50px;
+    text-shadow: 1px 1px 2px #120502;
+  }
+  .spantext{
+    color: rgb(240, 34, 34);
+    font-size: 20px;
+  }
+  .menu {
+    top: 0px;
+    right: 0px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+  }
+  .menu a {
+    display: block;
+    padding: 10px;
+    border: 1px solid;
+    margin: 10px;
+    border-radius: 20px;
+    background: white;
+    color: orange;
+    text-decoration: none;
+  }
+  .ahover {
+    background: url(./Images/mail.png) no-repeat ;
+    color: white;
+    line-height: 1.5;
+    font-size: 25px;
+    margin-bottom: 37px;
+    text-decoration: none;
+}
+  .Phone {
+    background: url(./Images/Phone.png) no-repeat;
+    border-radius: 20px;
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    height: 29px;
+  }
+  .productheader {
+    display: flex;
+    display: inline-block;
+}
+li {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+a.products {
+    color: white;
+    padding: 0 20px 25px 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+ul.productslist {
+    width: 206px;
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    flex-direction: column;
+    align-content: flex-start;
+    top: 36px;
+}
+.digitstore{
+    color:black ;
+}
+a.companyintel {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    padding: 0 20px 0 0;
+    display: inline-block;
+    font-size: 20px;
+}
+a.careers {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 0 20px 0 0;
+    text-decoration: none;
+}
+a.digitstore {
+    display: block;
+    text-decoration: none;
+    color: #50509b !important;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 13px;
+    width: 180px;
+}
+.iconmenu li:hover .productslist{
+    display: block;
+}
+a.digitstore:hover {
+    background-color: #3636eb;
+    color: white!important;
+}
+.productheader:hover li.lidiv:hover a{
+    color: white;
+}
+ion-icon.md.hydrated {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
